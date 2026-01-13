@@ -33,5 +33,17 @@ javafx {
 }
 
 dependencies {
+    testImplementation ("org.junit.jupiter:junit-jupiter:5.14.0")
+    testImplementation ("org.junit.platform:junit-platform-launcher")
 
+    testImplementation ("org.testfx:testfx-core:4.0.18")
+
+    testImplementation ("org.testfx:testfx-junit5:4.0.18")
+
+    testImplementation("org.hamcrest:hamcrest:3.0")
+}
+
+tasks.test{
+    useJUnitPlatform()
+    jvmArgs("--enable-native-access=ALL-UNNAMED")
 }
