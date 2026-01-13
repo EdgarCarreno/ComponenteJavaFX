@@ -49,4 +49,22 @@ public class CirculoController {
     	circulo.fireEvent(new EventoCambioColor(pintura));
     	
     }
+
+	@FXML
+    public void initialize() {
+        // Creamos la transición de movimiento
+        TranslateTransition animacion = new TranslateTransition();
+        animacion.setDuration(Duration.seconds(1.5));
+
+        // Aplicamos la animación al objeto 'circulo'
+        animacion.setNode(circulo);
+        animacion.setToX(100);
+
+        // Hace que vuelva a la izquierda automáticamente (reverse)
+        animacion.setAutoReverse(true);
+
+        // Se repite de forma consecutiva e infinita
+        animacion.setCycleCount(Timeline.INDEFINITE);
+        animacion.play();
+    }
 }
