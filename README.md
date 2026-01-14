@@ -10,7 +10,11 @@ circulo.fxml --> es el encargado de mostrarnos tanto el circulo como los tres bo
 
 testComponente.fxml --> es el fxml principal ya que es el contenedor principal donde mostraremos todos los componentes.
 
-El controlador 
+El controlador son los archivos especificados como controllers que son los encargados de actuar como el cerebro del componente encargados de conectar la parte visual con la lógica de java en mi caso cuneto con dos controllers que son CirculoController y TestComponenteController 
+
+CirculoController --> se encarga de gestionar la lógica del circulo y es donde defino tanto el circulo como los botones ademas de declarar el evento que me permite cambiar el color junto a un initialize para crear la animacion 
+
+TestComponenteController --> se encarga de gestionar la lógica de la ventana principal que define en el archivo fxml de testcomponente.fxml permitiendo vincular con el componente personalizado ademas de gestionar el ciclo de vida, en general controlar la aplicacion
 
 ### Test JavaFX
 
