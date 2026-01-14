@@ -1,6 +1,7 @@
 ### Herramientas
 SceneBuilder
 IntelliJ IDEA Community Edition 2025.2.1
+GitHub 3.19.1
 
 ### Librerias ha instalar
 junit-jupiter 5.14.0
