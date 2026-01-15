@@ -1,5 +1,5 @@
 ### Herramientas
-SceneBuilder
+SceneBuilder 25.0.0
 IntelliJ IDEA Community Edition 2025.2.1
 GitHub 3.19.1
 
